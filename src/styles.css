@@ -119,3 +119,38 @@ body {
   .estado__spinner { animation: none; }
   * { transition: none !important; }
 }
+
+/* ===== Comparador ===== */
+.comparador {
+  margin: 4px 0 24px;
+  padding: 14px 16px;
+  background: var(--fundo-2);
+  border: 1px solid var(--linha);
+  border-radius: var(--raio);
+}
+.comparador__rotulo {
+  display: block;
+  color: var(--texto-2);
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+.comparador__botoes { display: flex; flex-wrap: wrap; gap: 8px; }
+.comparador__btn {
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--texto-2);
+  background: transparent;
+  border: 1px solid var(--linha);
+  border-radius: var(--raio);
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: color .15s, border-color .15s;
+}
+.comparador__btn:hover { color: var(--texto); border-color: var(--texto-2); }
+.comparador__btn--ativo {
+  color: var(--fundo);
+  background: #5b8c9e;
+  border-color: #5b8c9e;
+  font-weight: 600;
+}
+.comparador__btn:focus-visible { outline: 2px solid #5b8c9e; outline-offset: 2px; }

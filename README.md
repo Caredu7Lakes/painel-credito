@@ -4,8 +4,10 @@ Painel web que consulta **juros de crédito** e **câmbio** direto das APIs
 públicas do **Banco Central do Brasil** e os apresenta de forma clara,
 interativa e responsiva.
 
-🔗 **Aplicação publicada:** _(adicionar link do Netlify/Vercel após o deploy)_
-📦 **Repositório:** _(link do GitHub)_
+🔗 **Aplicação publicada:** https://painel-credito.vercel.app
+📦 **Repositório:** https://github.com/Caredu7Lakes/painel-credito
+
+
 
 ![React](https://img.shields.io/badge/React-18-61dafb)
 ![Vite](https://img.shields.io/badge/Vite-5-646cff)

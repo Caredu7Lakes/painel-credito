@@ -69,6 +69,18 @@ direto do navegador). A consulta é feita por intervalo de datas
 | `432` | Meta Selic | % a.a. |
 | `1` | Dólar comercial (venda) | R$ |
 
+
+## 🤖 Uso de Inteligência Artificial
+
+
+## 🏁 Prompt utilizado :
+
+Você é um desenvolvedor front-end, sua função é criar uma aplicação React + Vite + Vercel que consome uma API pública do Banco Central do Brasil, com componentes reutilizáveis e organizados, uma interface responsiva, deve possuir formas de interação com os dados, você deve organizar a aplicação em componentes que tenham responsabilidades claras : Header, Main e Footer.
+
+
+## 🏆 Objetivo : Receber um framework para iniciar o desenvolvimento. Com esse esqueleto inicial efetuo as mudanças necessárias para atingir as fases do projeto de forma mais clara.
+
+
 ## ✨ Principais funcionalidades
 
 - **🌎 Seleção de indicador** (interação): botões trocam a série e refazem a
